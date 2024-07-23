@@ -12,7 +12,7 @@ client.on('qr', qr => {
 });
 
 client.on('message', async message => {
-    let hello_msg = "Mensagem padrão";
+    let hello_msg = "Olá";
     let msg = message.body.toLowerCase().trim(); 
 
     console.log("Mensagem recebida: " + msg); 
